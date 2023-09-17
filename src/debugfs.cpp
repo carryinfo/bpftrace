@@ -4,7 +4,7 @@
 namespace bpftrace {
 namespace debugfs {
 
-#define DEBUGFS "/sys/kernel/debug"
+#define DEBUGFS "/sys/kernel"
 
 std::string path()
 {

@@ -6,7 +6,7 @@ import glob
 
 field_types = {}
 
-for format_file_name in glob.iglob("/sys/kernel/debug/tracing/events/*/*/format"):
+for format_file_name in glob.iglob("/sys/kernel/tracing/events/*/*/format"):
     with open(format_file_name) as format_file:
         for line in format_file:
             if not line.startswith("\tfield:"):

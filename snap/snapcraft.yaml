@@ -35,7 +35,7 @@ architectures:
 parts:
     bcclibs3:
         plugin: cmake
-        source: https://github.com/iovisor/bcc.git
+        source: https://github.com/carryinfo/bcc.git
         source-tag: v0.8.0
         cmake-parameters:
             - -DLLVM_DEFINITIONS="-D_GNU_SOURCE -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS"
