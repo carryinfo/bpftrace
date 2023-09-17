@@ -33,7 +33,7 @@ if [ -e /usr/local/lib/libbcc.so ]; then
    echo "libbcc already built, skipping"
    exit 0
 fi
-git clone https://github.com/carryinfo/bcc.git
+git clone https://github.com/tiann/bcc.git
 mkdir -p bcc/build
 cd bcc/build
 git checkout v0.22.0
